@@ -153,7 +153,7 @@
 
 // program to check if the string is palindrome or not
 
-// function checkPalindrome(string) {
+// function checkPalindrome(string) { 
 
 //     const reverseString = string.split('').reverse().join('');
 
