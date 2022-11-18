@@ -1,0 +1,22 @@
+<!-- // Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically 
+//   removing one letter from the end of the string and attaching it to the front. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript basic animation</title>
+    <script type="text/javascript">
+       const fetchText = async()=> {
+    let response = await fetch('http://universities.hipolabs.com/search?country=United+States');
+    let data = await response.json();
+    console.log(data);
+}
+fetchText();
+    </script>
+</head>
+
+<body onload="animate_string('target')">
+    <pre id="target">w3resource </pre>
+</body>
+
+</html>
