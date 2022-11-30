@@ -2,8 +2,8 @@
 //  Array length value start 1
 
 // const Name = ['harish', 'ashish', 'nitin', 'mainis'];
-// console.log(Name[Name.length-1])
-// console.log(Name[3]);
+// // console.log(Name[Name.length-1])
+// // console.log(Name[3]);
 
 // for (let i = 0; i < Name.length; i++) {
 //     console.log(Name[i])
@@ -11,7 +11,8 @@
 // }
 
 // for (let i = 1; i <= 10; i++) {
-//     console.log(i * 2)
+//     // console.log(i * 2)
+//     console.log("*")
 // }
 
 //**  after es6 we have For..in and For..Of loop
@@ -231,7 +232,7 @@
 //  The slice() method returns the selected element(s) in an array, as a new array object.
 
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// const citrus = fruits.slice(1, 2);
+// const citrus = fruits.slice(0, 1);
 // console.log(citrus)
 
 //* Array.join
@@ -241,7 +242,7 @@
 // join() method is an array method and it can be used with the arrays.
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// let text = fruits.join();
+// let text = fruits.join(',');
 // console.log(text)
 
 //* toString

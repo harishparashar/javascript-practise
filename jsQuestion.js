@@ -114,3 +114,92 @@
 // }
 // printNumbers(5, 10);
 
+
+// second largest value in array without predefined function
+
+// const array = [32, 523, 5632, 920, 6000];
+
+// let largestNum = array[0];
+// let secondLargestNum = 0;
+
+// for (let i = 1; i < array.length; i++) {
+//     if (array[i] > largestNum) {
+//         secondLargestNum = largestNum;
+//         largestNum = array[i];
+//     }
+//     else if (array[i] !== largestNum && array[i] > secondLargestNum) {
+//         secondLargestNum = array[i];
+//     }
+// };
+// console.log("Largest Number in the array is " + largestNum);
+// console.log("Second Largest Number in the array is " + secondLargestNum);
+
+
+// * pattern print
+// *
+// **
+// ***
+// ****
+// *****
+
+// var i, j;
+// //outer loop
+// for (i = 1; i <= 5; i++) {
+//     //inner loop
+//     for (j = 1; j <= i; j++) {
+//         console.log('*');
+//     }
+//     console.log('<br/>');
+// }
+
+// var i, j;
+// //outer loop
+// for (i = 5; i >= 1; i--) {
+//     //inner loop
+//     for (j = 1; j <= i; j++) {
+//         console.log('*');
+//     }
+//     console.log('<br/>');
+// }
+
+
+// output: -[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+// const arr = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, [9, 10], 11],
+// ];
+// let flatarr = arr.reduce((accum, ele) => {
+//     return accum.concat(ele)
+// })
+// console.log(flatarr)
+// let flatArray = [].concat.apply([], arr);
+// console.log(flatarr)
+// let flatArray = [].concat(...arr);
+// console.log(flatarr)
+// console.log(arr.flat(0));
+// console.log(arr.flat(2));
+
+
+
+//  remove vowels and first letter capitel
+
+// var strings = ["my name is harish parashar"];
+
+// let string = strings.map(string => string.replace(/[aeiou]/g, ''));
+
+// let str = string.toString()
+// console.log(str)
+
+// const toTitleCase = (phrase) => {
+//     return phrase
+//         .toLowerCase()
+//         .split(' ')
+//         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//         .join(' ');
+// };
+
+// let result = toTitleCase(str);
+// console.log(result);
+

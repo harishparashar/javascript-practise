@@ -183,3 +183,15 @@
 // var a = 1;
 // console.log(++a)
 
+// @media only screen and(max - width: 600px) {
+//     div.example {
+//         font - size: 30px;
+//     }
+// }
+
+// @media(min - width: 400px) and(max - width: 900px) {
+//     .foo {
+//         display: none;
+//     }
+// }​
+
