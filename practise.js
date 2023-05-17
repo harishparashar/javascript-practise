@@ -125,47 +125,6 @@
 // console.log(difference(32))
 // console.log(difference(11))
 
-// const arry = [1, 2, 1, 3, 4, 3, 5, -1];
-
-// const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index)
-// const duplicateElementa = toFindDuplicates(arry);
-// console.log(duplicateElementa);
-
-
-// program to check if the string is anagram or not
-
-// const checkStringsAnagram = (a, b) => {
-//     if (a.length !== b.length) {
-//         console.log('Invalid Input')
-//     }
-//     let str1 = a.split('').sort().join('');
-//     console.log(str1)
-//     let str2 = b.split('').sort().join('');
-//     console.log(str2)
-//     if (str1 === str2) {
-//         console.log("True");
-//     } else {
-//         console.log("False");
-//     }
-// }
-// checkStringsAnagram("indian", "ndiani")
-
-
-// program to check if the string is palindrome or not
-
-// function checkPalindrome(string) { 
-
-//     const reverseString = string.split('').reverse().join('');
-
-//     if (string == reverseString) {
-//         console.log('It is a palindrome');
-//     }
-//     else {
-//         console.log('It is not a palindrome');
-//     }
-// }
-
-// checkPalindrome("abcdcba");
 
 // Question =  var call = sum(6);  call(10) return = 16
 // function sum(b){
