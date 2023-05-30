@@ -35,32 +35,24 @@
 
 
 // Q.3 reverse string word by word
-
 // const str = "This is Javascript Code";
-
 // // Split the string into an array of words
 // const wordsArray = str.split(" ");
-
 // // Reverse the characters of each word in the array
 // const reversedWordsArray = wordsArray.map(word =>
 //   word.split("").reverse().join("")
 // );
-
 // // Join the reversed words back into a string
 // const reversedString = reversedWordsArray.join(" ");
-
 // console.log(reversedString);
 
 
 //Q.4  remove vowels and first letter capitel
-
-// var strings = ["my name is harish parashar"];
-
-// let string = strings.map(string => string.replace(/[aeiou]/g, ''));
-
-// let str = string.toString()
+// var strings = "my name is harish parashar";
+// const str1 = strings.split(' ')
+// let string = str1.map(string => string.replace(/[aeiou]/g, ''));
+// let str = string.join(" ")
 // console.log(str)
-
 // const toTitleCase = (phrase) => {
 //     return phrase
 //         .toLowerCase()
@@ -68,6 +60,5 @@
 //         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
 //         .join(' ');
 // };
-
 // let result = toTitleCase(str);
 // console.log(result);

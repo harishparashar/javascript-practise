@@ -19,8 +19,11 @@
 //   for (const key2 in input2) {
 //     if (key1 === key2 && value1 === input2[key2]) {
 //       commonKeyValue[key1] = value1;
-//       break;
 //     }
 //   }
 // }
 // console.log(commonKeyValue)
+
+// Q.2 
+// var bar = null;
+// console.log(typeof bar === "object");

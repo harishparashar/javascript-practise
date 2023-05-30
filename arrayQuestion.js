@@ -1,9 +1,11 @@
 // Q.1 find duplicateValue
-// const arry = [1, 2, 1, 3, 4, 3, 5, -1];
+const arry = [1, 2, 1, 3, 4, 3, 5, -1];
 
 // const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index)
 // const duplicateElementa = toFindDuplicates(arry);
 // console.log(duplicateElementa);
+// let set = new Set(arry);
+// console.log(set)
 
 
 // Q.2  missing odd number given array
@@ -69,8 +71,8 @@
 
 // Q.6 unique no remove in array
 // const arr1 = [1,5,6,8,9,9,44,55,44,66,68]
-        // let unique  = new Set(arr1);
-        // console.log([...unique])
+//         let unique  = new Set(arr1);
+//         console.log([...unique])
 
         
 // Q.7 sum of array
@@ -129,3 +131,27 @@
 // ];
 // console.log(arr.flat(0));
 // console.log(arr.flat(3));
+
+// Quet 12:- Find the square root of each element of an array.
+// const arr = [4,9,16,25,36];
+// const square = arr.map((ele)=> Math.sqrt(ele));
+// console.log(square);
+
+
+// Quest 13:- multiply each element by 2 and return only those
+//         element which are greater then 10?
+// const arr = [ 2,3,4,5,6,7];
+//  const newArr = arr.map((ele)=>ele *2).filter((ele)=> ele >10)
+//  console.log(newArr)
+
+
+// quest 14 sort number in array
+// const numbers = [5, 2, 8, 1, 10];
+
+// // Sorting the numbers in ascending order
+// const sortedNumbers = numbers.sort((a, b) => a - b);
+// console.log(sortedNumbers); // Output: [1, 2, 5, 8, 10]
+
+// // Sorting the numbers in descending order
+// const reverseSortedNumbers = numbers.sort((a, b) => b - a);
+// console.log(reverseSortedNumbers); // Output: [10, 8, 5, 2, 1]

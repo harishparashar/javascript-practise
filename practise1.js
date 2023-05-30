@@ -1,8 +1,8 @@
 
-// // comma operator print only second value
-//         let x = 10;
-//         x = (x+=20,5)
-//         console.log(x) 
+// comma operator print only second value
+        // let x = 10;
+        // x = (x+=20,5)
+        // console.log(x) 
 
  // when compare two array when compare memory location and return false
 // let a = [];
@@ -53,7 +53,7 @@
 
 // let data = {name:'harish',age:9};
 // let info = {name:'ashish',age:10};
-// item = {...data, ...info}
+// item = {...data,...info}
 // console.log(item)
 
 //  let data = {name:'harish',age:9};

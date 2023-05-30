@@ -1,13 +1,13 @@
 //  Array index value start 0
 //  Array length value start 1
 
-// const Name = ['harish', 'ashish', 'nitin', 'mainis'];
-// // console.log(Name[Name.length-1])
-// // console.log(Name[3]);
+// const Name = ['harish', 'ashish', 'nitin', 'manish'];
+// console.log(Name[Name.length-1])
+// console.log(Name[3]);
 
 // for (let i = 0; i < Name.length; i++) {
 //     console.log(Name[i])
-//     // console.log(i)
+//     console.log(i)
 // }
 
 // for (let i = 1; i <= 10; i++) {
@@ -21,11 +21,12 @@
 
 // const Name = ['harish','ashish','nitin','manish'];
 // const names = "hy my name is harish"
+// const obj = {name:'harish',age:23}
 
-// for (let ele in Name){
+// for (let ele in obj){
 //     console.log(ele)
 // }
-// for (let ele of Name){
+// for (let ele of obj){
 //     console.log(ele)
 // }
 
@@ -39,6 +40,8 @@
 //     console.log(ele)
 // })
 // console.log(newname)
+// console.log(Name)
+
 
 //*** Searching and filter in an Array
 //* Array.indexOf() method
@@ -68,7 +71,6 @@
 // it return only one element.
 
 // const prices = [222,333,444,555,666,777,888,999];
-// prices < 555
 // console.log(prices.find((ele)=> ele < 555 ))
 // output= 222
 
@@ -160,18 +162,6 @@
 // console.log(arrr);
 // console.log(newArr)
 
-// Quet 1:- Find the square root of each element of an array.
-// Quest 2:- multiply each element by 2 and return only those
-//         element which are greater then 10?
-
-// const arr = [4,9,16,25,36];
-// const square = arr.map((ele)=> Math.sqrt(ele));
-// console.log(square);
-
-// const arr = [ 2,3,4,5,6,7];
-//  const newArr = arr.map((ele)=>ele *2).filter((ele)=> ele >10)
-//  console.log(newArr)
-
 
 //* Array.Reduce()
 // flatten an array means to convert 2d and 3d array in to a 
@@ -232,7 +222,7 @@
 //  The slice() method returns the selected element(s) in an array, as a new array object.
 
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// const citrus = fruits.slice(0, 1);
+// const citrus = fruits.slice(0, 2);
 // console.log(citrus)
 
 //* Array.join
