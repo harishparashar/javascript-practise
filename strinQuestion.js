@@ -35,16 +35,16 @@
 
 
 // Q.3 reverse string word by word
-// const str = "This is Javascript Code";
-// // Split the string into an array of words
-// const wordsArray = str.split(" ");
-// // Reverse the characters of each word in the array
-// const reversedWordsArray = wordsArray.map(word =>
-//   word.split("").reverse().join("")
-// );
-// // Join the reversed words back into a string
-// const reversedString = reversedWordsArray.join(" ");
-// console.log(reversedString);
+const str = "This is Javascript Code";
+// Split the string into an array of words
+const wordsArray = str.split(" ");
+// Reverse the characters of each word in the array
+const reversedWordsArray = wordsArray.map(word =>
+  word.split("").reverse().join("")
+);
+// Join the reversed words back into a string
+const reversedString = reversedWordsArray.join(" ");
+console.log(reversedString);
 
 
 //Q.4  remove vowels and first letter capitel
