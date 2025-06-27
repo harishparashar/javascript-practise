@@ -15,4 +15,5 @@
 //     age:1
 // }
 
-interfaace -
+// Generics allow you to write reusable components that can work with a variety of types, rather than a single one. 
+// They provide a way to pass types as arguments to functions, classes, or interfaces.

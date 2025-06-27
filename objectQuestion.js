@@ -4,13 +4,14 @@
 // const commonKeyValue = {};
 
 // for (const key in input1) {
-//     console.log(key)
-//     // console.log(input2.hasOwnProperty(key))
+//     // console.log(key)
+//     console.log(input2.hasOwnProperty(key))
 //     // console.log(input2[key])
 //   if (input2.hasOwnProperty(key) && input1[key] === input2[key]) {
 //     commonKeyValue[key] = input1[key];
 //   }
 // }
+// console.log(commonKeyValue);
 
 
 // another way to solve

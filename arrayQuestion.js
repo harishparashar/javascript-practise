@@ -1,5 +1,5 @@
 // Q.1 find duplicateValue
-const arry = [1, 2, 1, 3, 4, 3, 5, -1];
+// const arry = [1, 2, 1, 3, 4, 3, 5, -1];
 
 // const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index)
 // const duplicateElementa = toFindDuplicates(arry);
@@ -36,7 +36,7 @@ const arry = [1, 2, 1, 3, 4, 3, 5, -1];
 //   return sumArray;
 // }
 
-// // Example usage:
+// Example usage:
 // const inputArray = [2, 7, 11, 4, -2];
 // const resultArray = createSumArray(inputArray);
 // console.log(resultArray);  // [20, 15, 11, 18, 24]
@@ -106,7 +106,7 @@ const arry = [1, 2, 1, 3, 4, 3, 5, -1];
 //Q.9 find intersection that means common value both array
 // const arr1 = [1,2,3,4,5];
 // const arr2 = [3,4,5,6,7];
-// output 3,4,5
+// // output 3,4,5
 
 // const intersectionArr = arr1.filter((ele)=>{
 //     console.log(ele)

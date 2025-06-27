@@ -9,7 +9,9 @@
 //  - allows you to make an element editable by the User.
 
 // 4. What is a CSS Preprocessor?
-// A CSS preprocessor is a tool that extends the capabilities of regular CSS by adding programming features like variables, functions, nesting, and mixins. You write your styles in the preprocessor’s syntax, then the preprocessor compiles that code into regular CSS that browsers can understand.
+// A CSS preprocessor is a tool that extends the capabilities of regular CSS by adding programming features 
+// like variables, functions, nesting, and mixins. You write your styles in the preprocessor’s syntax, 
+// then the preprocessor compiles that code into regular CSS that browsers can understand.
 
 // Why use a CSS Preprocessor?
 // Variables: Store colors, fonts, or sizes once, then reuse them easily.

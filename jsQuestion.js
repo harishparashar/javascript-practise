@@ -56,8 +56,8 @@
 // }
 
 // * tabel print
-// for (var num = 1; num <= 10; num++) {
-//     var table = 2
+// for (let num = 1; num <= 10; num++) {
+//     let table = 2
 //     console.log(table * num)
 // }
 
@@ -94,3 +94,26 @@
 //     }, 1000);
 // }
 // printNumbers(5, 10);
+
+// isArray - method determines whether an object is an array . return true if array otherwise return false
+
+// function is first class citizen
+// A programming language is said to have first class function when function in that language are treated like any other variables.
+
+// any function that is passed as an argument that is called callback function.
+// a callback is a function that is to be executed after another function has finished excecuteing. 
+
+// HOF are functions that take other function as an argument or return function as their result . 
+
+// An IIFE is a js function that runs as soon as it is defined.
+
+// closer is an action that is inner function can have access to the outer function variables as well as  all the globlal variables.
+
+// call method - is a predefined js method. with call() an object can use a method beloging to another object. 
+// call methods takes argument seprately 
+// apply methods takes argument in an Array.
+// bind method - we can bind a object to a common function, so thats the function give different result when we need . 
+
+// for of loop - working on iterable objects (array and string)
+// for in loop - allows us to loops through the properties of an object . 
+// enmuration =that's means object properties show
