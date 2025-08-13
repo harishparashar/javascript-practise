@@ -117,3 +117,86 @@
 // for of loop - working on iterable objects (array and string)
 // for in loop - allows us to loops through the properties of an object . 
 // enmuration =that's means object properties show
+
+// what is event loop. 
+// the event loop is js macanisam to manage asyncnorus Task . it check the call stack (where syncronus code executed)
+// and the task queue (whaer asyncronus callbacks wait) to decide what to run next .
+// - js runs all syncronus code .
+// - when asyncnorus code (Timer , network response ) is ready , its callback is added to the task queue . 
+// - onces the syncronus code finished . the event loop take task from queue and runs them . 
+
+// ✅ 2. Event Delegation
+// Event Delegation is a technique where you attach a single event listener to a parent element instead of each child.
+
+// ✅ What is Function Currying in JavaScript?
+// Function Currying is a technique in JavaScript where a function with multiple arguments is transformed into a sequence of functions, 
+// each taking one argument at a time.
+// Currying is a way to call a function step by step — one argument at a time — instead of all at once.
+// const curriedSum = a => b => c => a + b + c;
+// console.log(curriedSum(1)(2)(3)); // ➝ 6
+
+// 🔸 Shallow Copy:
+// A shallow copy copies only the first level of an object or array.
+// If the object has nested objects, the inner objects are not cloned, they are just referenced.
+
+// const original = {
+//   name: "Harish",
+//   address: { city: "Delhi" }
+// };
+// const shallow = { ...original }; // shallow copy
+// shallow.name = "Raj"; // ✅ changes only shallow.name
+// shallow.address.city = "Mumbai"; // ❌ also changes original.address.city
+// console.log(original.address.city); // "Mumbai"
+// 💡 Why? Because address is still the same object (reference) in both.
+
+// 🔸 Deep Copy:
+// A deep copy copies everything, including all nested objects.
+// So the new object is completely separate from the original.
+// const original = {
+//   name: "Harish",
+//   address: { city: "Delhi" }
+// };
+// const deep = JSON.parse(JSON.stringify(original)); // deep copy
+// deep.address.city = "Mumbai";
+// console.log(original.address.city); // "Delhi"
+// 💡 Here, nested address is fully cloned, not just referenced.
+
+
+// ✅ Debouncing in React
+// Debouncing means delaying a function call until the user has stopped performing an action for a certain time.
+// It helps reduce unnecessary function calls like API requests on every keystroke.
+
+// Throttling in React
+// Throttling means limiting a function to run only once in a given time period, even if triggered multiple times.
+// It’s useful for performance-heavy tasks like scroll or resize events.
+
+// Debounce: Triggers after the user stops typing (or action) for some time.
+// Throttle: Triggers the function at a fixed rate, even during continuous activity.
+
+
+// Synchronous code runs step by step and blocks the next line until it finishes.
+
+// Asynchronous means that a task is started but doesn't block the rest of the code from running —
+// the program continues executing while that task finishes in the background, and its result is handled later.
+// JavaScript is single-threaded, but handles async using the event loop and callback queue.
+
+
+// ✅ What is Coercion in JavaScript?
+// Coercion is JavaScript’s automatic or implicit conversion of a value from one data type to another.
+
+// It usually happens when:
+// Using operators like +, ==, etc.
+// JS needs to evaluate expressions with different data types.
+
+// 🧠 Types of Coercion
+// 1. Implicit Coercion
+// JS automatically converts values.
+// '5' + 1       // '51'   → number 1 is coerced to string
+// '5' - 1       // 4      → string '5' is coerced to number
+// true + 1      // 2      → true is coerced to 1
+// null + 1      // 1      → null is coerced to 0
+// 2. Explicit Coercion
+// You manually convert types.
+// Number("5")   // 5
+// String(100)   // "100"
+// Boolean(0)    // false

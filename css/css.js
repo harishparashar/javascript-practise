@@ -20,4 +20,81 @@
 // Functions & Operations: Perform calculations, manipulate colors, etc.
 // Modularity: Split CSS into multiple files and import them for better organization.
 
+// 5. - what is Display ? 
+// The display property in CSS defines how an HTML element is displayed in the layout — it determines the element’s box type 
+// and how it interacts with other elements.
+
+// Display properties:
+// block -:  The element takes up the full width and starts on a new line. (e.g., <div>, <p>)
+// inline -:  The element only takes up as much width as needed and doesn’t break the line. (e.g., <span>)
+// inline-block -:  Like inline, but allows setting width and height.
+// none -:  Hides the element from the page (it is removed from the layout).
+// flex -:  Enables Flexbox layout model for flexible and responsive layouts.
+// grid -:  Enables CSS Grid layout for two-dimensional designs.
+// contents -:  Makes the container disappear visually but keeps its children.
+
+// 6-  What is a CSS Box?
+// In CSS, every HTML element is considered as a box, and this concept is known as the CSS Box Model. 
+// It defines how the element's size and spacing are calculated on a web page.
+
+// CSS Box Model Components:
+// Content -- The actual content like text, images, etc.
+// Padding -- Space between the content and the border.
+// Border -- The boundary surrounding the padding (and content).
+// Margin -- Space outside the border, separating the element from others.
+
+
+// 7 - What is position in CSS?
+// The position property decides how an element is placed on the page.
+// 🔹 Types:
+// static - Default. Follows normal flow.
+// relative - Moves from its original place using top, left, etc.
+// absolute - Positioned based on the nearest parent element that has position set (not static).
+// fixed - Stays fixed to the browser window. Doesn't move on scroll.
+// sticky - Acts like relative until scroll, then sticks like fixed.
+
+// 8 - What is Flexbox in CSS?
+// Flexbox (Flexible Box) is a CSS layout method that helps us arrange elements in a row or column. 
+// It makes it easy to align, space, and resize items inside a container — even when the size of the items is not fixed.
+// Common Flexbox Properties:
+// 👉 For the container:
+// flex-direction: Row or column layout (row, column)
+// justify-content: Horizontal alignment (flex-start, center, space-between, etc.)
+// align-items: Vertical alignment (stretch, center, flex-start, etc.)
+// flex-wrap: Allow items to wrap onto multiple lines
+
+// 9- What is Grid in CSS? 
+// CSS Grid is a layout system used to create web layouts in rows and columns. 
+// It gives you more control over both horizontal and vertical placement of items.
+// Grid is used when you need a 2D layout (rows + columns).
+// Flexbox is better for 1D layouts (row or column).
+
+// 10 - What is Tailwind CSS? 
+// Tailwind CSS is a utility-first CSS framework used to design modern and responsive web interfaces quickly.
+// Instead of writing custom CSS, you use predefined utility classes directly in your HTML to style elements.
+
+// 11 - What is SASS? 
+// SASS (Syntactically Awesome Stylesheets) is a CSS preprocessor that extends CSS by adding powerful features like:
+// Variables -	Reuse values like colors, fonts, sizes
+// Nesting-	Write CSS in a more structured way (like HTML)
+// Mixins	-Reuse groups of styles (like functions)
+// Inheritance-	Use @extend to share styles between classes
+// Functions	-Do calculations and logic (e.g., lighten())
+// Modular Code	- Break CSS into smaller files (@import or @use)
+
+// 12 - What is the difference between a semantic and non-semantic element in HTML?
+// Answer: Semantic elements clearly define their content’s meaning (e.g., <header>, <article>), 
+// while non-semantic elements like <div> or <span> do not. Semantic tags improve accessibility, SEO, and code readability.
+
+// 13 - What is Specificity in CSS?
+// Specificity in CSS is a set of rules that the browser uses to decide which CSS rule to apply when multiple rules target the same element.
+
+// Inline styles > ID selector (#id)	> Class (.class) > Element/tag (div) > Universal (*)
+
+// 14- What is HTML? 
+// HTML (HyperText Markup Language) is the standard language used to create and structure web pages.
+// It tells the browser what content to display (like text, images, videos) and how it is organized.
+
+// CSS stands for Cascading Style Sheets. 
+// It is a stylesheet language used to describe the presentation (style and layout) of HTML elements on a webpage.
 
