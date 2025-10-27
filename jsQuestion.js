@@ -103,6 +103,8 @@
 // any function that is passed as an argument that is called callback function.
 // a callback is a function that is to be executed after another function has finished excecuteing. 
 
+// A Promise in JavaScript is an object that represents the future result of an asynchronous operation — either success (resolve) or failure (reject)
+
 // HOF are functions that take other function as an argument or return function as their result . 
 
 // An IIFE is a js function that runs as soon as it is defined.
@@ -161,6 +163,20 @@
 // console.log(original.address.city); // "Delhi"
 // 💡 Here, nested address is fully cloned, not just referenced.
 
+// 🔹 JSON.stringify()
+// 👉 Object ko JSON string me convert karta hai.
+// const user = { name: "Harish", age: 28 };
+// const str = JSON.stringify(user);
+// console.log(str); // '{"name":"Harish","age":28}'
+// console.log(typeof str); // "string"
+
+// 🔹 JSON.parse()
+// 👉 JSON string ko wapas JavaScript object me convert karta hai.
+// const str = '{"name":"Harish","age":28}';
+// const obj = JSON.parse(str);
+// console.log(obj.name); // "Harish"
+// console.log(typeof obj); // "object"
+
 
 // ✅ Debouncing in React
 // Debouncing means delaying a function call until the user has stopped performing an action for a certain time.
@@ -200,3 +216,55 @@
 // Number("5")   // 5
 // String(100)   // "100"
 // Boolean(0)    // false
+
+// let vs const in JavaScript
+// 1. Re-assignment
+// let → You can reassign values.
+// const → You cannot reassign (the variable reference is fixed).
+// let a = 10;
+// a = 20; // ✅ works
+// const b = 10;
+// b = 20; // ❌ TypeError: Assignment to constant variable
+// 2. Initialization
+// let → Can be declared without assigning a value.
+// const → Must be initialized at the time of declaration.
+// let x;   // ✅ allowed
+// x = 5;
+// const y; // ❌ Error: Missing initializer in const declaration
+// 3. Scope
+// Both let and const are block-scoped (only accessible inside { }).
+// Unlike var, which is function-scoped.
+// 4. Hoisting
+// Both let and const are hoisted, but they are in the Temporal Dead Zone (TDZ) → cannot be accessed before declaration.
+// console.log(a); // ❌ ReferenceError
+// let a = 5;
+// 5. Objects & Arrays with const
+// const only prevents reassignment of the variable itself, not mutation of objects/arrays inside it.
+// const person = { name: "Harish" };
+// person.name = "Raj"; // ✅ allowed (mutation)
+// person = {}; // ❌ Error (reassignment not allowed)
+// person = { name: "Raj" };  ❌ Error (reassignment not allowed)
+
+
+// JavaScript (JS) is a high-level, interpreted programming language that is mainly used to make websites interactive and dynamic.
+// ✅ Key Points:
+// JavaScript is a lightweight, dynamic, interpreted language that runs in the browser as well as on servers (using Node.js).
+// Purpose: It adds behavior to web pages — for example, handling button clicks, form validations, animations, and API calls.
+// Features: Dynamically typed (no need to define variable types explicitly)
+// Single-threaded with an event loop (asynchronous behavior possible)
+// Supports Object-Oriented, Functional, and Imperative programming styles.
+// An interpreted language is a programming language where the code is executed line by line by an interpreter, 
+// rather than being compiled into machine code first.
+// Interpreter – Explanation
+// An interpreter is a program that reads and executes code line by line.
+// Instead of converting the whole program into machine code at once (like a compiler), it translates and runs each instruction immediately.
+
+
+// 📌 What is structuredClone?
+// structuredClone() is a built-in JavaScript function that creates a deep clone of a given value.
+// Unlike shallow copying (Object.assign or spread operator {...obj}), structuredClone() copies everything
+//  recursively, including nested objects, arrays, and many special types — and it does so safely.
+
+// "structuredClone() is a built-in JavaScript method introduced in ES2021 that creates a deep clone of objects, arrays, and many other data types.
+//  Unlike JSON.stringify() and parse(), it supports Dates, Maps, Sets, and even handles circular references. 
+// It's now the recommended way to make deep copies natively without using external libraries like Lodash."

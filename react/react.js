@@ -208,38 +208,6 @@
 // An uncontrolled component manages its own state internally using the DOM, not React state.
 
 
-// ✅ "What is the SOLID principle and how do you apply it in React?"
-// The SOLID principles are five design principles aimed at writing clean, scalable, and maintainable code. 
-// Even though React is not a classical object-oriented framework, 
-// these principles apply well to component and hook design.
-
-// 🔹 S — Single Responsibility Principle (SRP)
-// Each component or module should have only one responsibility.
-// In React, I separate concerns by splitting components into presentational and container components.
-// For example, a UserProfile component only renders UI, while a separate useUser hook handles data fetching.
-
-// 🔹 O — Open/Closed Principle
-// Code should be open for extension but closed for modification.
-// In React, I write reusable components that accept props for flexibility.
-// For example, a Button component can accept a variant prop instead of rewriting it every time.
-// <Button variant="danger">Delete</Button>
-
-// 🔹 L — Liskov Substitution Principle
-// Subtypes should be replaceable for their base types.
-// In React, this means a custom component that extends a base one should behave the same way.
-// If I replace a Button with CustomButton, it should work without breaking the parent component.
-
-// 🔹 I — Interface Segregation Principle
-// Don’t force components to depend on props they don’t need.
-// I keep components lean by passing only the necessary props.
-// For example, a ProductCard only gets name and price, not unrelated flags like showTimer or cartItemCount.
-
-// 🔹 D — Dependency Inversion Principle
-// High-level modules shouldn’t depend on low-level details.
-
-// In React, I apply this by using custom hooks or context instead of hardcoding logic in UI.
-// For example, instead of fetching user data inside a header component, I use a useAuth() hook to abstract that logic.
-
 // ✅ What is System Design?
 // “System Design is about planning the architecture of a software system to ensure it’s scalable, maintainable, and performs well.
 //  In frontend development, I focus on designing modular React components, optimizing performance (via lazy loading, code splitting), 
@@ -260,3 +228,120 @@
 // "Storybook is a UI development environment where I can build, test, and document React components in isolation.
 //  It's very useful for creating reusable components, developing design systems, and improving collaboration with designers and testers. 
 // I’ve used it to showcase all component variations and visually test edge cases without launching the full app."
+
+// 1. React Forget (React Compiler / React Concent)
+// React Forget is the upcoming React Compiler by Meta. Its main goal is to automatically optimize React code by tracking dependencies 
+// and re-renders at compile-time. 
+// Currently, developers use useMemo, useCallback to prevent unnecessary renders, but Forget can do this automatically.
+
+// 3. Optimistic UI Updates
+// Optimistic UI means updating the UI before the server confirms the action.
+// Example: When you click "like", the UI immediately shows the new like count, and then the server response updates it. 
+// If the server fails, UI rolls back.
+
+// What is Jest:
+// Jest is a JavaScript testing framework maintained by Meta.
+// It’s mainly used for unit testing and integration testing.
+// Key Features:
+// Zero config → works out of the box with most JS/React apps.
+// Provides test runner, assertion library, mocks, and snapshot testing.
+// Supports async testing easily.
+// 🔹 Unit Testing
+// Unit testing means testing the smallest piece of code in isolation, usually a function, class, or component.
+// 🔹 Integration Testing
+// Integration testing checks how multiple units work together as a group.
+
+
+// 🔹 RTL (React Testing Library)
+// React Testing Library is a testing library built on top of DOM Testing Library.
+// It focuses on testing React components in a way similar to how users interact with them.
+// Key Features:
+// Encourages testing components by behavior, not implementation details.
+// Provides helpers like render, screen, fireEvent, userEvent.
+// Works great with Jest (they’re usually used together).
+
+
+// What is fetch?
+// fetch() is a built-in JavaScript function used to make HTTP requests (GET, POST, PUT, DELETE, etc.).
+// It is based on Promises, so it returns a Promise that resolves once the response is available.
+
+
+// What is Axios?
+// Axios is a third-party library for making HTTP requests.
+// Works both in the browser and Node.js environment.
+// It simplifies requests by automatically handling some things that fetch requires extra steps for.
+// Advantages:
+// Automatic JSON parsing.
+// Supports request cancellation.
+// Has built-in timeout support.
+// Easier error handling (error messages are more descriptive).
+// Interceptors (modify requests or responses globally).
+
+
+// “Component is a reusable, independent piece of UI in React that can accept input (props) and manage its own data (state).
+//  Applications in React are built by combining multiple components.”
+
+// “The Virtual DOM is a lightweight JavaScript representation of the real DOM. When state or props change, 
+// React creates a new Virtual DOM tree, compares it with the previous one (diffing), and updates 
+// only the parts of the real DOM that have changed, making UI updates faster and more efficient.”
+
+// “React Fiber is the reconciliation engine introduced in React 16. It enables asynchronous rendering by breaking work into small units, 
+// prioritizing tasks, and pausing or resuming rendering when needed. 
+// This allows React to deliver smoother and more responsive user interfaces.”
+
+// Virtual DOM → focuses on what to update.
+// Fiber → focuses on how and when to update.
+
+// “Reconciliation engine is React’s process of figuring out what has changed in the Virtual DOM 
+// and applying only the necessary updates to the real DOM. React Fiber, introduced in React 16, 
+// is the new reconciliation engine that makes rendering smoother by scheduling and prioritizing tasks.”
+
+// “When we use create-react-app, two main libraries get installed: react and react-dom. 
+// The react package provides the core functionality like creating components, hooks, and managing Virtual DOM. 
+// But React itself doesn’t know anything about the browser DOM. 
+// The react-dom package is the bridge that takes React components and renders them into the real browser DOM. 
+// That’s why both are required — React defines the UI, and ReactDOM integrates it with the browser.”
+
+// “A Single Page Application (SPA) is a web app that loads a single HTML page and dynamically updates the UI using client-side 
+// JavaScript without full page reloads. 
+// In React, SPA behavior is achieved using client-side routing, component-based rendering, Virtual DOM diffing, and API calls for data.”
+
+
+// 2. Batching क्या है?
+// Batching = multiple state updates को combine करना।
+// React 18 से पहले batching सिर्फ synthetic events (जैसे onClick) में होता था।
+// React 18 से batching हर जगह होता है (async, promises, timeouts etc.)।
+// 👉 Example:
+// function handleClick() {
+//   setCount(c => c + 1);
+//   setCount(c => c + 1);
+//   setCount(c => c + 1);
+// }
+// React इन्हें एक batch में process करेगा,
+// और final count +3 होगा (not re-render after each setState)।
+// 👉 अगर आप setCount(count + 1) यूज़ करते:
+// function handleClick() {
+//   setCount(count + 1);
+//   setCount(count + 1);
+//   setCount(count + 1);
+// }
+
+
+//  ******** functional compnent and class component difference in react
+// 1. Syntax
+// Functional Component:  A plain JavaScript function that takes props as an argument and returns JSX.
+// Class Component: A JavaScript ES6 class that extends React.Component and has a render() method that returns JSX.
+// 2. State Management
+// Functional Component:
+// Originally stateless, but now with React Hooks (useState, useReducer) they can manage state.
+// Class Component:
+// State is managed using this.state and this.setState().
+// 3. Lifecycle Methods
+// Functional Component: Use Hooks like useEffect to replicate lifecycle methods:
+// Class Component:Has built-in lifecycle methods
+// 4. Performance
+// Functional components are generally lighter and easier to read.
+// Class components are slightly heavier because of the extra syntax and this binding.
+// 5. this Keyword
+// Functional Component:No this keyword, making code easier to reason about.
+// Class Component:Requires this to access props, state, and methods, and often needs manual binding of event handlers.

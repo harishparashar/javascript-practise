@@ -10,10 +10,6 @@
 // I have been responsible for designing responsive UIs, integrating APIs, and optimizing performance and deliver task on time.
 // I work in agile enviourment where i actively participate in sprint planning,code reviews and deployement.
 // I enjoy learning new tools, improving performance, and working with teams to deliver quality products.
-
-// "I’m currently working at Byotonic on a contract basis. 
-// The project I was hired for was completed last week, and the company has asked me to start looking for new opportunities. 
-// They’ll release me as soon as I get a new offer."
     
 // My project approach starts with understanding the requirements.
 // I plan a clean and scalable project structure and follow a component-based approach.
@@ -56,7 +52,3 @@
 // Performed thorough testing in the staging environment before going live.
 // Used feature flags to gradually roll out sensitive updates.
 // Documented all changes and conducted sessions with the team to ensure smooth adoption.
-
-
-
-

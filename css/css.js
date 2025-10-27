@@ -98,3 +98,15 @@
 // CSS stands for Cascading Style Sheets. 
 // It is a stylesheet language used to describe the presentation (style and layout) of HTML elements on a webpage.
 
+// 👉 Accessibility in web development means making websites usable by everyone, including people with 
+// disabilities (like vision, hearing, mobility, or cognitive impairments).
+// It ensures that all users can perceive, understand, navigate, and interact with your application.
+// Alt Text for Images - Keyboard Navigation- Form Labels - ARIA (Accessible Rich Internet Applications)
+// <button aria-expanded="false" aria-controls="menu">Menu</button>
+// - Color Contrast
+
+// 👉 “ARIA stands for Accessible Rich Internet Applications. It’s a set of attributes that make dynamic or custom UI components 
+// accessible to assistive technologies like screen readers. ARIA provides roles (what an element is), 
+// states (its current condition like expanded/collapsed), and properties (extra info like what element it controls). 
+// For example, we can use aria-expanded on a dropdown button, 
+// or role="dialog" on a modal. The key is to prefer semantic HTML first and use ARIA only when needed.”
