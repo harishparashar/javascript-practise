@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Array Traversing</title>
     <script>
-             let data = [12,22,13,54,5,8,9,6,7,5,8];
-             for(let i=0;i<data.length;i++){
-                console.log(data[i])
-             }
+        let data = [12, 22, 13, 54, 5, 8, 9, 6, 7, 5, 8];
+        for (let i = 0; i < data.length; i++) {
+            console.log(data[i])
+        }
 
-            let x = 3;
+        let x = 3;
+        function getData() {
+            let index = parseInt(document.getElementById('element').value);
+
+            if (isNaN(index)) return alert('Please enter correct data');
+            if (index === -1) return alert('Invalid Entry');
+            if (index < 0 || index >= data.length) return alert('Please enter correct input');
+
+            alert(data[index]);
+        }
     </script>
 </head>
+
 <body>
-    
+    <input type="text" id="element" />
+    <button onclick="getData()">click</button>
+
 </body>
+
 </html>

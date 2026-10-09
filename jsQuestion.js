@@ -268,3 +268,5 @@
 // "structuredClone() is a built-in JavaScript method introduced in ES2021 that creates a deep clone of objects, arrays, and many other data types.
 //  Unlike JSON.stringify() and parse(), it supports Dates, Maps, Sets, and even handles circular references. 
 // It's now the recommended way to make deep copies natively without using external libraries like Lodash."
+
+// A closure is a function that remembers and can access variables from its outer scope, even after the outer function has finished executing.  

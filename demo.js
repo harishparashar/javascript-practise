@@ -9,7 +9,7 @@
 //   })();
 // })();
 
-const b = [1,2,3,4,5,6];
+// const b = [1,2,3,4,5,6];
 
 // for (let i = 0; i < b.length; i++) {
 //   setTimeout(() => console.log(b[i]), 1000);

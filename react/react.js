@@ -289,6 +289,9 @@
 // prioritizing tasks, and pausing or resuming rendering when needed. 
 // This allows React to deliver smoother and more responsive user interfaces.”
 
+// React Fiber is the complete internal rewrite of React’s reconciliation algorithm, introduced in React 16.
+// The purpose of Fiber was to make React rendering more efficient and flexible, especially for complex UIs and animations.
+
 // Virtual DOM → focuses on what to update.
 // Fiber → focuses on how and when to update.
 
@@ -345,3 +348,7 @@
 // 5. this Keyword
 // Functional Component:No this keyword, making code easier to reason about.
 // Class Component:Requires this to access props, state, and methods, and often needs manual binding of event handlers.
+
+
+// 1 - what is react js. 
+// React js is java script library . react use to make web frontend application. with react we make spa .  

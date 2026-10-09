@@ -1,15 +1,59 @@
 // remote ok , flexjobs , jobstogether, 
 // 1. Tell me something about your self
-// Hello, my name is Harish Parashar,
-// I have completed my Bachelor's (BCA) and Master’s (MCA) in Computer Applications.
-// I have more than 5 years of experience as a Frontend Developer.
-// I have strong hands-on experience with React.js, JavaScript, TypeScript, Next.js, 
-// and UI tools like Tailwind CSS, MUI, Ant Design, and Bootstrap.
-// Throughout my career, I’ve worked on multiple projects across domains like EdTech, 
-// E-commerce, Social Monetization, InsurTech, LegalTech, and Logistics.
-// I have been responsible for designing responsive UIs, integrating APIs, and optimizing performance and deliver task on time.
-// I work in agile enviourment where i actively participate in sprint planning,code reviews and deployement.
-// I enjoy learning new tools, improving performance, and working with teams to deliver quality products.
+// Hello, my name is Harish Parashar.
+// I have completed my BCA and MCA in Computer Applications.
+// I have over 5 years of experience as a Frontend Developer, mainly working with React.js, JavaScript, TypeScript, and Next.js. 
+// I also have experience with UI libraries like Tailwind CSS, Material UI, and Bootstrap.
+// In my previous roles, I worked on multiple projects across domains such as e-commerce, logistics, EdTech and LegalTech platforms, 
+// where I was responsible for building responsive user interfaces, integrating APIs, and optimizing application performance.
+// I have also worked in Agile environments, actively participating in sprint planning, code reviews, and deployments.
+// Currently, I am focusing on enhancing my skills and looking for a good opportunity where I can contribute and grow as a frontend developer.
+
+// ❓ “What were you doing during this gap?”
+// I utilized this time to upskill in React and modern frontend technologies while also managing some family responsibilities. 
+// Now everything is stable, and I am ready to join immediately.
+
+// ❓ “What exactly did you do in learning?”
+// I worked on improving my React skills by building reusable components, practicing API integration, and focusing on performance optimization. 
+// I also explored Next.js and modern frontend practices.
+
+// ❓ Why are you looking for a job change?
+// I am looking for a new opportunity where I can utilize my experience, work on challenging projects, and grow in a stable environment.
+
+// ❓ “Why should we hire you after gap + switches?”
+// I understand your concern, but during this time I have focused on improving my skills and preparing myself better. 
+// I have strong hands-on experience in React and frontend development, 
+// and now I am looking for a long-term opportunity where I can contribute consistently.
+
+// Why should we hire you?
+// I believe I am a good fit for this role because I have over 5 years of hands-on experience in frontend development, 
+// especially with React.js, Next.js, and modern JavaScript.
+// I have worked on real-world projects where I built scalable and responsive user interfaces, integrated APIs, and focused on performance optimization.
+// I also have experience working in Agile teams, collaborating with backend developers, and delivering quality features on time.
+// Along with my technical skills, I am a quick learner and adaptable to new technologies.
+// I am now looking for a stable opportunity where I can contribute consistently and grow with the organization.
+
+// ❓ 1. What is your current salary?
+// Currently, I am not on a fixed salary as I have been focusing on skill development and freelance work.
+
+// ❓ 2. What was your last salary?
+// My last drawn salary was around 8 LPA.
+
+// ❓ 3. What are your salary expectations?
+// I am open to a reasonable offer based on the role, responsibilities, and growth opportunities. 
+// My priority right now is to join a good organization and restart my career.
+
+// 🔥 If they push for number:
+// Based on my experience, I am expecting something in the range of 6 to 8 LPA, but I am flexible depending on the overall opportunity.
+
+// ❓ Do you have any questions for us?
+// Yes, I would like to ask a few questions.
+// First, can you tell me more about the team I will be working with and the kind of projects I will be involved in?
+// Also, what are the expectations from this role in the first 3 to 6 months?
+// And how does the company support learning and growth for developers?
+
+// If interview goes well, you can ask:
+// Is there anything in my profile that you think I should improve or clarify?
     
 // My project approach starts with understanding the requirements.
 // I plan a clean and scalable project structure and follow a component-based approach.
@@ -52,3 +96,18 @@
 // Performed thorough testing in the staging environment before going live.
 // Used feature flags to gradually roll out sensitive updates.
 // Documented all changes and conducted sessions with the team to ensure smooth adoption.
+
+
+
+// 1️⃣ Difference between GraphQL and REST API?
+// 2️⃣ How do you decide which library to use in a project?
+// For example: Date handling — Day.js vs Moment.js
+// 3️⃣ How do you reduce bundle size in a frontend application?
+// 4️⃣ What is Webpack and how does it create bundles?
+// 5️⃣ What is Tree Shaking?
+// How does it work internally and how does it decide what to remove?
+// 6️⃣ What is Suspense in React?
+// 7️⃣ What are loaders and actions? (React Router / data handling concepts)
+// 8️⃣ What is hydration and dehydration?
+// 9️⃣ What is Critical Rendering Path?
+// 🔟 What are stale closures?
